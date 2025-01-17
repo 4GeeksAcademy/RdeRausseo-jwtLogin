@@ -20,18 +20,19 @@ export const Navbar = () => {
 				<div className="collapse navbar-collapse" id="navbarNav">
 					<ul className="navbar-nav">
 						<li className="nav-item">
-							<Link to="/singup" className="nav-link active" aria-current="page" href="#">
-								Sing up
+							<Link className="nav-link active" aria-current="page" to="/login">
+								Login
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/login" className="nav-link" href="#">
-								Login
+							<Link className="nav-link" to="/signup" >
+								Sign Up
 							</Link>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-	)
+
+	);
 };
