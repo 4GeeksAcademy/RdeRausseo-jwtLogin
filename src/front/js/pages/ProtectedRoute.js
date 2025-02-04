@@ -4,13 +4,13 @@ import { Context } from '../store/appContext'
 
 const ProtectedRoute = ({ children, isLogged }) => {
 
-    const {store, actions} = useContext(Context)
+  const { store, actions } = useContext(Context)
 
-    if (!isLogged) {
-        return <Navigate to="/login" replace />;
-      }
-    
-        return children;
-    };
+  if (!isLogged) {
+    return <Navigate to="/login" replace />;
+  }
+
+  return children;
+};
 
 export default ProtectedRoute

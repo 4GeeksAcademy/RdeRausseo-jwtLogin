@@ -8,9 +8,9 @@ import { Home } from "./pages/home";
 import injectContext, { Context } from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
-import SignUp from "./pages/SignUp";
-import Login from "./pages/Login";
-import { Private } from "./pages/Private";
+import SignUp from "./pages/singUp";
+import Login from "./pages/login";
+import { Private } from "./pages/private";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
 //create your first component
